@@ -15,11 +15,11 @@ This project addresses these limitations by using incremental learning models tr
 
 The framework follows a closed-loop SDN security workflow:
 
-1. Traffic generation (normal + LDDoS) in an emulated SDN topology
-2. Collection of flow-level statistics via Ryu (OpenFlow 1.3)
-3. Feature extraction from flow statistics
-4. Online classification using incremental ML algorithms
-5. Immediate mitigation by installing flow rules on detection
+1. Traffic generation (normal + LDDoS) in an emulated SDN topology.
+2. Collection of flow-level statistics via Ryu (OpenFlow 1.3).
+3. Feature extraction from flow statistics.
+4. Online classification using incremental ML algorithms.
+5. Immediate mitigation by installing flow rules on detection.
 
 ## Features
 
